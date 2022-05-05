@@ -1,1 +1,1 @@
-#My Arch dotconfig.
+# My Arch dotconfig.
