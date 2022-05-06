@@ -27,8 +27,8 @@ window {
   background-color: @transparent;
 }
 
-expander .entry {
-  margin-left: -20px;
+#expander .entry {
+  margin-left: -10px;
 }
 
 #img {
