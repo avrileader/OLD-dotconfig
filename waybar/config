@@ -1,5 +1,5 @@
 {
-    "height": 22,
+    "height": 20,
     "width": 1920,
     "modules-left": [
 	"custom/arch",
@@ -59,7 +59,7 @@
         "format-icons": [" ", " ", " ", " ", " "]
 	},
     "network": {
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{essid}({signalStrength}%) ",
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
