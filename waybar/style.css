@@ -16,7 +16,6 @@ window#waybar {
 #taskbar,
 #backlight,
 #battery,
-#temperature,
 #network
 {
     background: #ffffff;

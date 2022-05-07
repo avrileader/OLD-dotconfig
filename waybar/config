@@ -16,7 +16,6 @@
         "network",
         "pulseaudio",
         "backlight",
-	"temperature",
 	"battery",
         "tray"
     ],
@@ -38,12 +37,12 @@
 	"hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
 	"critical-threshold": 90,
 	"interval": 5,
-        "format": "{icon} {temperatureC}°C",
+        "format": "{temperatureC}°C {icon}",
         "format-icons": [
                 "", // Icon: temperature-quarter
                 "", // Icon: temperature-half
-                "", // Icon: temperature-three-quarters
-		],
+                "" // Icon: temperature-three-quarters
+		]
 	},
     "battery": {
 	"interval": 60,
