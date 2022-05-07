@@ -16,6 +16,7 @@
         "network",
         "pulseaudio",
         "backlight",
+	"temperature",
 	"battery",
         "tray"
     ],
@@ -39,11 +40,9 @@
 	"interval": 5,
         "format": "{icon} {temperatureC}°C",
         "format-icons": [
-                "", // Icon: temperature-empty
                 "", // Icon: temperature-quarter
                 "", // Icon: temperature-half
                 "", // Icon: temperature-three-quarters
-                ""  // Icon: temperature-full
 		],
 	},
     "battery": {
@@ -61,7 +60,7 @@
     "network": {
         "format-wifi": "{essid}({signalStrength}%) ",
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-linked": "{ifname}(No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}:{ipaddr}/{cidr}",
 	"tooltip": false
