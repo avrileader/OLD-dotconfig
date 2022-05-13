@@ -31,6 +31,9 @@ window#waybar {
 #taskbar button.minimized{
     background: #cccccc;
 }
+#taskbar button.active{
+    background: #07d773;
+}
 #custom-right,
 #custom-left {
     font-size: 22px;
